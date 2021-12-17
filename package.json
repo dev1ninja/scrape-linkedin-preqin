@@ -1,0 +1,27 @@
+{
+  "name": "scrape-linkedin-preqin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dev1ninja: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@github.com/dev1ninja/scrape-linkedin-preqin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev1ninja/scrape-linkedin-preqin/issues"
+  },
+  "homepage": "https://github.com/dev1ninja/scrape-linkedin-preqin#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "axios-cookiejar-support": "^2.0.3",
+    "tough-cookie": "^4.0.0",
+    "tough-cookie-file-store": "^2.0.3"
+  }
+}
