@@ -22,6 +22,7 @@
     "axios": "^0.24.0",
     "axios-cookiejar-support": "^2.0.3",
     "fs": "0.0.1-security",
+    "puppeteer": "^13.0.0",
     "tough-cookie": "^4.0.0",
     "tough-cookie-file-store": "^2.0.3"
   }
