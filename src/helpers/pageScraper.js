@@ -11,7 +11,7 @@ const scraperObject = {
         
         await page.waitForSelector('.normal');
 
-        console.log('Success load')
+        console.log('load finished')
 
         let link = "http://hdl.library.upenn.edu/1017/90974";
         let mainPage = await browser.newPage();
