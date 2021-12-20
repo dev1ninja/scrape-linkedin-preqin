@@ -9,13 +9,15 @@ const scraperObject = {
         //Navigate to the selected page
         await page.goto(this.url);
         
-        await page.waitForSelector({waitUntil: 'load'});
+        await page.waitForSelector('.normal');
+
+        console.log('Success load')
 
         let link = "http://hdl.library.upenn.edu/1017/90974";
         let mainPage = await browser.newPage();
         await mainPage.goto(link);
 
-        await mainPage.waitForSelector({waitUntil: 'load'})
+        await mainPage.waitForSelector('#login-div');
         console.log("load finished");
 
         await mainPage.type('#pennname', USER_NAME);
