@@ -25,6 +25,7 @@ const scraperObject = {
 
         await mainPage.click('.btn');
 
+        // await browser.close();
         //#penntoken
     }
 }
